@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
 body, html{
     height: 100vh;
     font-family: 'Poppins', sans-serif;
@@ -16,6 +16,7 @@ header{
     align-items: center;
     justify-content: space-between;
     margin-top: 45px;
+    font-size: 14px;
 
 
 }
@@ -38,17 +39,25 @@ color: #3e976c;
     font-size: .9rem;
     align-items: center;
     margin-bottom: 8px;
+    font-weight:lighter;
+
 }
 
+.search input::placeholder{
+    color: black;
+ 
+
+}
 .search button{
     border: none;
     background: #f3f3f3;
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
+
 .header-logo{
-    margin: 8px 0px 0px 255px;
+    margin: 8px 0px 0px 280px;
     width: 80px;
     height: 26px;
   
@@ -56,7 +65,7 @@ color: #3e976c;
 
 .languagebar i {
     font-size: 10px;
-    margin-left: -4px;
+    margin-left: -53px;
 }
 .search{
     border-radius: 50px;
@@ -65,7 +74,7 @@ color: #3e976c;
     align-items: center;
     align-content: center;
     background: #f3f3f3;   
-    margin: 5px 0px 0px 15px;
+    margin: 2px 0px 0px 10px;
     width: 245px;
     
 }
@@ -79,7 +88,7 @@ color: #3e976c;
     align-items: center;
     padding: 5px 15px;
     width: 135px;
-    margin: 5px -5px 0px 225px;
+    margin: 5px -5px 0px 237px;
 }
 
 
@@ -89,26 +98,27 @@ color: #3e976c;
     padding:0px 0px 0px 10px;
 }
 .languagebar span{
- margin: 0px 5px 0px 0px;
+ margin: 0px 25px 0px 0px;
 }
 
 .navigation{
-    margin: 30px 0px 45px;
+    margin: 29px 0px 42px -2px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 20px;
+    font-size: 14px;
     
 
 }
 
 .navigation a{
-    padding: 10px;
     text-decoration: none;
     color: #3c3c3c;
-    font-size: .9rem;
-    font-weight: bold;
-    padding: 23px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 22px;
+    margin-top: 3px;
+    
 }
 
 .upbanner{
@@ -116,35 +126,36 @@ color: #3e976c;
     flex-direction: column;
     background-image: url(../images/upbanner.JPG);
     background-size: 100%;
-    height: 50%;
+    height: 542px;
     background-repeat: no-repeat;
     padding: 20px;
-    width: 90%;
-    margin-left: 40px;
+    width: 1083px;
+    margin-left: 36px;
 }
 
 .upbanner h4{
     color:#3e976c;
     font-weight: bold;
-    font-size: 0.8rem;
+    font-size: 11px;
     text-transform: uppercase;
-    margin: 60px 0px 0px 80px;
+    margin: 51px 0px 0px 72px;
     line-height: 20px;
 }
 
 .upbanner p{
-    color:#3e976c;
-    font-weight: bold;
-    font-size: 10px;
-    margin: 25px 0px 0px 80px;
+    color:#7AC3A0;
+    font-weight:normal;
+    font-size: 11px;
+    margin: 37px 0px 0px 73px;
+    letter-spacing: 0px;
 }
 
 .upbanner h1{
     color:#3c3c3c;
     font-weight: bold;
-    font-size: 55px;
-    margin: -40px 0px 0px 80px;
-    line-height: 60px;
+    font-size: 51px;
+    margin: -25px 0px 0px 73px;
+    line-height: 54px;
     font-weight: bold;
 }
 
@@ -194,9 +205,11 @@ color: #3e976c;
 }
 
 .main-container h2{
-    margin: 110px 0px 70px;
+    margin: 59px 0px 35px 17px;
     color: #3c3c3c;
-    font-size: 30px;
+    font-size: 29px;
+    font-weight: 600; 
+    letter-spacing: .7px;
 }
 
 .inside-boxes{
@@ -205,7 +218,8 @@ color: #3e976c;
     justify-content:space-around;
     align-items: center;
     align-content: center;
-    margin: 20px;
+    margin: 20px 0px 0px 23px;
+
 
 }
 
@@ -222,6 +236,7 @@ color: #3e976c;
     font-weight: normal;
     font-size: 14px;
     cursor: pointer;
+    margin: 18px 0px 20px -5px;
 
 }
 
@@ -245,11 +260,18 @@ color: #3e976c;
 
 
 .inside-boxes i{
-    font-size: 12px;
+    font-size: 11.3px;
     letter-spacing: -8px;
     color: #ffc400;
     display: inline;
 }
+
+.rating{
+    margin-right: 20px;
+    margin-top: -5px;
+    margin: -5px 20px 0px 0px;
+}
+
 
 .inside-boxes span{
     text-decoration: line-through;
@@ -260,6 +282,10 @@ color: #3e976c;
 
 .inside-boxes div{
     line-height: 8px;
+}
+
+.inside-boxes p{
+    margin-right: 10px;
 }
 
 
@@ -295,17 +321,22 @@ color: #3e976c;
     color: #3c3c3c;
     background-color: #bdefd7;
     padding: 12px 24px;
+    margin: -30px 0px 40px 0px;
 
 }
 
 .all-blogpost{
-    margin: 48px 0px;
+display: flex;
+justify-content: center;
+margin: 40px 0px 80px;
+
+
 }
 
 .all-blogpost a{
     text-decoration: none;
     border-radius: 50px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bold;
     fill: #3c3c3c;
     color: #3c3c3c;
@@ -318,6 +349,60 @@ color: #3e976c;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+.downbanner a{
+    text-decoration: none;
+    color: rgb(206, 202, 202);
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.chair{
+    background-image: url(../images/banner.png);
+    background-size: 100%;
+    width: 570px;
+    height: 390px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;     
+}
+
+.chair h1{
+    margin-bottom: 100px;
+    font-size: 50px;
+    font-weight: 300;
+    color: #222222;
+}
+
+.chair a{
+    margin: -20px;
+}
+
+.table{
+    background-image: url(../images/banner-2.png);
+    background-size: 100%;
+    width: 570px;
+    height: 390px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+}
+
+.table h1{
+    margin-bottom: 100px;
+    font-size: 50px;
+    font-weight: 300;
+    color: #222222;
+}
+
+.table a{
+    margin: -20px;
 }
 
 .testimonial{
@@ -372,31 +457,26 @@ line-height: 30px;
     padding-left: 8px;
 }
 
-.second-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
 
 .second-container{
     background-color: hsl(0deg 0% 98%);
     width: 100vw;
-    height: 880px;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 
 .second-container h2 {
-    font-size: 30px;
+    font-size: 29px;
     color: #3c3c3c;
-    margin: 130px 0px 50px;
+    margin:130px 0px 50px 20px;
 }
 
 .inside-boxes2{
     display: flex;
     justify-content: center;
+    margin-left: 60px;
 }
 
 .inside-boxes2 div{
@@ -406,13 +486,14 @@ line-height: 30px;
     align-items: start;
     align-content: start;
     display: flex;
-    width: 383px;
+    width: 370px;
+    margin-left: 5px;
 }
     
 
 
 .inside-boxes2 img{
-    width: 383px;
+    width: 365px;
     height: 310px;
     object-fit: cover;
     margin-bottom: 40px;
@@ -426,6 +507,14 @@ line-height: 30px;
     text-decoration: none;
     color: #666666;
     font-size: 14px;
+    margin-left: 30px;
+
+}
+
+.inside-boxes2 p{
+    margin-left: 30px;
+    line-height: 30px;
+    font-size: 14px;
 
 }
 
@@ -438,6 +527,9 @@ line-height: 30px;
     color: #222222;
     font-size: 20px;
     cursor: pointer;
+    margin-left: 30px;
+    font-weight: 500;
+    margin-bottom: 0px;
 
 }
 
@@ -452,10 +544,10 @@ line-height: 30px;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	align-items: flex-start;
-	align-content: stretch;
-    margin-left: 20px;
-    margin: 100px 0px;
+	align-items: center;
+    align-content: center;
+    margin: 20px 0px 50px;
+
 }
 
 
@@ -517,30 +609,30 @@ font-size: .9rem;
     color: #3e976c;
     }
 
-    .subscribe{
-        border-radius: 50px;
-        padding: 8px 4px 0px 20px;
-        height: 33px;
-        align-items: center;
-        align-content: center;
-        background: #f3f3f3;
-        border: 1px solid #e2d8d8;
-        align-items: center;
-        font-size: .9rem;
-    }
+.subscribe{
+     border-radius: 50px;
+     padding: 8px 4px 0px 20px;
+     height: 33px;
+     align-items: center;
+     align-content: center;
+    background: #f3f3f3;
+    border: 1px solid #e2d8d8;
+    align-items: center;
+      font-size: .9rem;
+ }
 
-    .newsletter input{
-        border: none;
-        margin-right: -45px;
-        outline: none;
-    }
+.newsletter input{
+     border: none;
+     margin-right: -45px;
+     outline: none;
+}
 
-    .newsletter button{
-        border: none;
-        color: #3e976c;
-        font-weight: bold;
-        cursor: pointer;
-    }
+.newsletter button{
+    border: none;
+     color: #3e976c;
+     font-weight: bold;
+    cursor: pointer;
+ }
 
 
 
@@ -616,7 +708,7 @@ font-size: .9rem;
     display: flex;
     flex-direction: column;
     margin-top: -20px;
-    margin-bottom: 65px;
+    margin-bottom: 55px;
 
 }
 
@@ -643,6 +735,7 @@ font-size: .9rem;
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin-top: -15px;
 
 }
 
