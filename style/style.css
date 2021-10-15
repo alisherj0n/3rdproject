@@ -18,11 +18,11 @@ header{
     margin-top: 45px;
     font-size: 14px;
 
-
 }
 
+
 .header-navigation a{
-    margin: 0px 12px;
+    margin: 0;
     text-decoration: none;
     color: #666666;
 }
@@ -31,51 +31,65 @@ header{
 color: #3e976c;
 }
 
+.header-navigation i{
+    letter-spacing: 20px;
+}
+
 .search input{
     border: none;
-    background-color: #f3f3f3;
+    background-color:#F3F3F3;  
     text-transform: uppercase;
     outline: none;
     font-size: .9rem;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     font-weight:lighter;
+    color:#7A7A7A;
 
 }
 
+.search i{
+
+    color: #7A7A7A;
+    font-size: 19px;
+}
+
 .search input::placeholder{
-    color: black;
+    color: #7A7A7A;
+    font-weight: 500;
  
 
 }
 .search button{
     border: none;
-    background: #f3f3f3;
+    background: #F3F3F3;  
     cursor: pointer;
-    margin-left: 40px;
+    border-radius: 50%;
+    transform: rotate(90deg);
+    margin-bottom: 5px;
 }
 
 
 .header-logo{
-    margin: 8px 0px 0px 280px;
     width: 80px;
     height: 26px;
+    margin: 7px 0px 3px 265px;
   
 }
 
 .languagebar i {
     font-size: 10px;
-    margin-left: -53px;
+    margin-left: -50px;
 }
 .search{
     border-radius: 50px;
-    padding: 8px 4px 0px 20px;
+    padding: 6px 10px 1px 20px;
     height: 33px;
-    align-items: center;
-    align-content: center;
-    background: #f3f3f3;   
+    background: #F3F3F3;  
     margin: 2px 0px 0px 10px;
     width: 245px;
+    display: flex;
+    justify-content: space-between;
     
 }
 
@@ -87,8 +101,8 @@ color: #3e976c;
     height: 30px;
     align-items: center;
     padding: 5px 15px;
-    width: 135px;
-    margin: 5px -5px 0px 237px;
+    width: 130px;
+    margin: 5px 0px 3px 230px;
 }
 
 
@@ -115,9 +129,9 @@ color: #3e976c;
     text-decoration: none;
     color: #3c3c3c;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     padding: 22px;
-    margin-top: 3px;
+    margin-top: 0px;
     
 }
 
@@ -132,6 +146,29 @@ color: #3e976c;
     width: 1083px;
     margin-left: 36px;
 }
+
+.icons div{
+    width: 40px;
+    height: 40px;
+    background: #777777
+}
+
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.icons :hover{
+background: #000;
+}
+
+.left-arrow{
+    margin-left: 3px;
+}
+
+
 
 .upbanner h4{
     color:#3e976c;
@@ -154,7 +191,7 @@ color: #3e976c;
     color:#3c3c3c;
     font-weight: bold;
     font-size: 51px;
-    margin: -25px 0px 0px 73px;
+    margin: -28px 0px 0px 73px;
     line-height: 54px;
     font-weight: bold;
 }
@@ -163,22 +200,22 @@ color: #3e976c;
     display: block;
 }
 
-.upbanner i{
-    margin: 0px 0%;
-    justify-content: space-between;
-    font-size: 3rem;
-    flex-direction: row;
-    text-decoration: none;
-    color: black;
-}
 
 .icons{
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    margin-top: 8em;
+    margin-top: 141px;
 }
+
+.icons i{
+    margin: 12px 0px 5px 15px;
+    color: white;
+    font-size: 1rem;
+
+}
+
 
 .color-clock{
     letter-spacing: 5px;
@@ -297,6 +334,91 @@ color: #3e976c;
     color: #ffc400;
 }
 
+.box-icons i{
+
+    color: #fff;
+    font-size: 17px;
+    margin-left: 20px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 50%;
+    line-height: 100px;
+    line-height: 99px;
+    padding: 12px 19px 12px 13px;
+    align-items: center;
+    
+}
+
+
+
+.box-icons a i:hover{
+
+    background: #3e976c;
+
+}
+
+
+.box-icons a{   
+    text-decoration: none;
+   
+
+}
+
+.box-icons{
+    position: absolute;
+    display: flex;
+    top: 1120px;
+    opacity: 0;
+    transition: .3s ease;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.inside-boxes div:hover .box-icons {
+    opacity: 1;
+    
+  }
+
+  .box-icons2 i{
+
+    color: #fff;
+    font-size: 17px;
+    margin-left: 20px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 50%;
+    line-height: 100px;
+    line-height: 99px;
+    padding: 12px 19px 12px 13px;
+    align-items: center;
+}
+
+
+.box-icons2 a{   
+    text-decoration: none;
+   
+
+}
+
+.box-icons2{
+    position: absolute;
+    display: flex;
+    top: 1545px;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.inside-boxes div:hover .box-icons2 {
+    opacity: 1;
+  }
+
+  .box-icons2 a i:hover{
+    
+    background: #3e976c;
+
+}
+
 
 
 .all-products{
@@ -309,7 +431,6 @@ color: #3e976c;
 .all-products{
     margin: 6em;
 }
-
 
 
 .all-products a{
@@ -328,7 +449,7 @@ color: #3e976c;
 .all-blogpost{
 display: flex;
 justify-content: center;
-margin: 40px 0px 80px;
+margin: 30px 0px 220px 15px;
 
 
 }
@@ -337,13 +458,14 @@ margin: 40px 0px 80px;
     text-decoration: none;
     border-radius: 50px;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 500;
     fill: #3c3c3c;
     color: #3c3c3c;
     background-color: #bdefd7;
-    padding: 12px 24px;
-
+    padding: 12px 23px;
 }
+
+
 
 .downbanner{
     display: flex;
@@ -428,6 +550,13 @@ line-height: 30px;
 
 .testimonial img{
     margin: 30px 0px;
+}
+
+.testimonial-icons{
+
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 .review-details{
@@ -567,14 +696,23 @@ line-height: 30px;
 .footer-logo i{
 
     color: #666666;
-    margin-left: 25px;
-
+    margin: 20px 0px 0px 20px;
+    
 }
 
 .footer-logo i:hover{
 
     color: #3e976c;
 
+}
+
+.footer-logo{
+   margin: -52px 0px 0px 14px;
+}
+
+.footer-logo p{
+    font-size: 14px;
+    line-height: 26px;
 }
 
 .footer1 h2{
@@ -587,15 +725,18 @@ line-height: 30px;
     display: flex;
     flex-direction: column;
     line-height: 35px;
+    margin: -90px 0px 0px 0px;
 }
 
 .shop{
     display: flex;
     flex-direction: column;
+    margin: -110px 0px 0px -140px;
 }
 
 .newsletter{
     align-items: center;
+    margin: -52px 0px 0px 14px;
 }
 
 .footer1 a{
@@ -604,6 +745,8 @@ color: #666666;
 line-height: 30px;
 font-size: .9rem;
 }
+
+
 
 .footer1 a:hover{
     color: #3e976c;
@@ -679,9 +822,8 @@ font-size: .9rem;
     display: flex;
     flex-direction: column;
     margin-bottom: 65px;
-
- 
 }
+
 
 .box2{
     align-content: center;
