@@ -449,7 +449,7 @@ background: #000;
 .all-blogpost{
 display: flex;
 justify-content: center;
-margin: 30px 0px 220px 15px;
+margin: 30px 0px 270px 15px;
 
 
 }
@@ -457,12 +457,13 @@ margin: 30px 0px 220px 15px;
 .all-blogpost a{
     text-decoration: none;
     border-radius: 50px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     fill: #3c3c3c;
     color: #3c3c3c;
     background-color: #bdefd7;
     padding: 12px 23px;
+    margin-top: 7px;
 }
 
 
@@ -555,9 +556,26 @@ line-height: 30px;
 .testimonial-icons{
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 60%;
+    position: absolute;
+    top: 2720px;
 
 }
+
+
+
+
+.testimonial-icons a{
+    text-decoration: none;
+    color: #3e976c;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+
+
+}
+
 
 .review-details{
     display: flex;
@@ -675,7 +693,7 @@ line-height: 30px;
 	justify-content: space-between;
 	align-items: center;
     align-content: center;
-    margin: 20px 0px 50px;
+    margin: 0px;
 
 }
 
@@ -707,7 +725,7 @@ line-height: 30px;
 }
 
 .footer-logo{
-   margin: -52px 0px 0px 14px;
+   margin: -110px 0px 0px 14px;
 }
 
 .footer-logo p{
@@ -724,19 +742,29 @@ line-height: 30px;
 .help{
     display: flex;
     flex-direction: column;
-    line-height: 35px;
-    margin: -90px 0px 0px 0px;
+    line-height: 30px;
+    margin: -112px 0px 0px -5px;
+}
+
+.help a{
+    margin-top: 5px;
 }
 
 .shop{
     display: flex;
     flex-direction: column;
-    margin: -110px 0px 0px -140px;
+    margin: -135px 0px 0px -165px;
 }
 
+.shop h2{
+    margin-bottom: 18px;
+}
+.shop a{
+margin-top: 5px;
+}
 .newsletter{
     align-items: center;
-    margin: -52px 0px 0px 14px;
+    margin-top: -90px;
 }
 
 .footer1 a{
@@ -766,8 +794,8 @@ font-size: .9rem;
 
 .newsletter input{
      border: none;
-     margin-right: -45px;
      outline: none;
+     background:#f3f3f3;
 }
 
 .newsletter button{
@@ -779,13 +807,12 @@ font-size: .9rem;
 
 
 
-
-
 .footer2{
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
+    margin: 20px;
 }
 
 .footer2 a{
@@ -801,6 +828,10 @@ font-size: .9rem;
 
 .footer2 a:hover{
     color:#23A455;
+}
+
+.footer2 span{
+    color: #3e976c;
 }
 
 
