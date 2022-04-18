@@ -1,3 +1,3 @@
-# 3rdproject
+# Miinii
 
-https://alisherj0n.github.io/3rdproject/
+https://alisherj0n.github.io/Miniii/
