@@ -1,0 +1,21 @@
+.searchbar {
+  padding: 0 1rem;
+  background-color: #f3f3f3;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 23%;
+}
+
+.searchbar .input {
+  width: 100%;
+  padding: 0.7rem 0;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.searchbar .btn-search {
+  all: unset;
+  cursor: pointer;
+}

@@ -1,364 +1,440 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Miini</title>
-    <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" href="style/style.css">
-    <script src="https://kit.fontawesome.com/62c369fab3.js" crossorigin="anonymous"></script>
-</head>
-<body>
-
-    <header>
-        <div class="search">
-            <input type="search" placeholder="Search...">
-            <button><i class="fas fa-search"></i></button>
-            
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/62c369fab3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style/bundle.css" />
+    <title>Minii</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="searchbar">
+        <input type="search" class="input" placeholder="Search..." />
+        <button style="transform: rotate(90deg)" class="btn-search">
+          <i class="fas fa-search icon"></i>
+        </button>
+      </div>
+      <img src="./images/logo.png" alt="miini logo" class="logo" />
+      <div class="mini-nav">
+        <div class="multi-language">
+          <div class="lang">
+            <span class="currency">
+              EST
+              <i class="fas fa-chevron-down icon"></i>
+            </span>
+          </div>
+          I
+          <div class="lang">
+            <span class="currency">
+              EUR
+              <i class="fas fa-chevron-down icon"></i>
+            </span>
+          </div>
         </div>
-
-        <a href="#"><img src="images/logo.png" alt="header-logo" class="header-logo"></a>
-
-        <div class="languagebar">
-            <span>EST</span>
-            <i class="fas fa-chevron-down"></i>
-            <span class="span-top">EUR</span>
-            <i class="fas fa-chevron-down"></i>
-        </div>
-        
-        <div class="header-navigation">
-            <a href="#"><i class="far fa-heart"></i></a>
-            <a href="#"><i class="far fa-user"></i></a> 
-            <a href="#"><i class="fas fa-shopping-bag"></i></a>  
-        </div>
+        <nav class="nav">
+          <li>
+            <a href="#" class="social">
+              <i class="fas fa-heart icon"></i>
+              <span class="notification-bagde">0</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social"><i class="fas fa-user icon"></i></a>
+          </li>
+          <li>
+            <a href="#" class="social">
+              <i class="fas fa-shopping-bag icon"></i>
+              <span class="notification-bagde">0</span>
+            </a>
+          </li>
+        </nav>
+      </div>
     </header>
 
-    <div class="navigation">
-        <a href="#">Home</a>
-        <a href="#">Shop</a>
-        <a href="#">Contact</a>
-        <a href="#">Blog</a>
-        <a href="#">Pages</a>
-    </div>
+    <section class="main">
+      <div class="container">
+        <div class="content">
+          <nav class="navigation">
+            <li><a href="#" class="link">Home</a></li>
+            <li><a href="#" class="link">Shop</a></li>
+            <li><a href="#" class="link">Contact</a></li>
+            <li><a href="#" class="link">Blog</a></li>
+            <li><a href="#" class="link">Pages</a></li>
+          </nav>
+          <div class="hero-bg">
+            <span class="product-type">Desk Lamp Collection</span>
 
-    <div class="upbanner">
-        <h4>Desk Lamp <span>Collection</span></h4>
-
-        <div class="icons">
-            <div class="left-arrow">
-                <a href="#"><i class="fas fa-chevron-left"></i></a>
+            <div class="arrows">
+              <div class="arrow-left">
+                <a href="#"><i class="fas fa-chevron-left icon"></i></a>
+              </div>
+              <div class="arrow-right">
+                <a href="#"><i class="fas fa-chevron-right icon"></i></a>
+              </div>
             </div>
+            <h1 class="product-name">ROOF - Modular Lighting</h1>
+            <small class="author">Designed by</small>
+            <small class="author-name">Gynwoon Kim</small>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <div class="right-arrow">
-                <a href="#"><i class="fas fa-chevron-right"></i></a>
+    <section class="products">
+      <div class="container">
+        <div class="content">
+          <h2 class="heading">popular products</h2>
+          <div class="product-list">
+            <div class="product">
+              <img src="./images/1.png" alt="Wood chair" class="image" />
+              <a href="#" class="name">Kime Chair</a>
+              <span class="badge green">New</span>
+              <div class="stars">
+                <i class="fas fa-star icon"></i>
+                <i class="fas fa-star icon"></i>
+                <i class="fas fa-star icon"></i>
+                <i class="fas fa-star icon"></i>
+                <i class="fas fa-star icon"></i>
+              </div>
+              <span class="price">$67.90 – $124.90</span>
+              <div class="product-icons">
+                <a href="#"><i class="fas fa-expand-alt icon"></i></a>
+                <a href="#"><i class="far fa-heart icon"></i></a>
+                <a href="#"><i class="fas fa-cart-plus icon"></i></a>
+              </div>
             </div>
-            
+            <div class="product">
+              <img src="./images/2.png" alt="Tea Caddy" class="image" />
+              <a href="#" class="name">Kime Tea Caddy</a>
+              <span class="badge green">New</span>
+              <div class="stars">
+                <i class="fas fa-star icon"></i>
+                <i class="fas fa-star icon"></i>
+                <i class="fas fa-star icon"></i>
+                <i class="fas fa-star icon"></i>
+                <i class="fas fa-star icon"></i>
+              </div>
+              <span class="price">$29.90</span>
+              <div class="product-icons">
+                <a href="#"><i class="fas fa-expand-alt icon"></i></a>
+                <a href="#"><i class="far fa-heart icon"></i></a>
+                <a href="#"><i class="fas fa-cart-plus icon"></i></a>
+              </div>
+            </div>
+            <div class="product">
+              <img src="./images/3.png" alt="Earphone case" class="image" />
+              <a href="#" class="name">Earphone Case</a>
+              <span class="badge orange">Sale</span>
+              <div class="stars">
+                <i class="fas fa-star icon"></i>
+                <i class="fas fa-star icon"></i>
+                <i class="fas fa-star icon"></i>
+                <i class="fas fa-star icon"></i>
+                <i class="fas fa-star icon"></i>
+              </div>
+              <span class="price green">
+                <s class="crossed">$49.90</s>
+                $29.90
+              </span>
+              <div class="product-icons">
+                <a href="#"><i class="fas fa-expand-alt icon"></i></a>
+                <a href="#"><i class="far fa-heart icon"></i></a>
+                <a href="#"><i class="fas fa-cart-plus icon"></i></a>
+              </div>
+            </div>
+            <div class="product">
+              <img src="./images/4.png" alt="Wood Table" class="image" />
+              <a href="#" class="name">Horrison Table</a>
+              <span class="badge orange">Sale</span>
+              <span class="price green">
+                <s class="crossed">$397.90</s>
+                $350.90
+              </span>
+              <div class="product-icons">
+                <a href="#"><i class="fas fa-expand-alt icon"></i></a>
+                <a href="#"><i class="far fa-heart icon"></i></a>
+                <a href="#"><i class="fas fa-cart-plus icon"></i></a>
+              </div>
+            </div>
+            <div class="product">
+              <img src="./images/5.jpg" alt="Wall clock" class="image" />
+              <a href="#" class="name">Wallnut Wall Clock</a>
+              <span class="price">$33.90 – $35.90</span>
+              <div class="product-icons">
+                <a href="#"><i class="fas fa-expand-alt icon"></i></a>
+                <a href="#"><i class="far fa-heart icon"></i></a>
+                <a href="#"><i class="fas fa-cart-plus icon"></i></a>
+              </div>
+            </div>
+            <div class="product">
+              <img src="./images/6.png" alt="Round Wood Table" class="image" />
+              <a href="#" class="name">Arper Round table</a>
+              <span class="badge orange">Sale</span>
+              <span class="badge grey">Sold out</span>
+              <span class="price green">
+                <s class="crossed">$249.90</s>
+                $200.90
+              </span>
+              <div class="product-icons">
+                <a href="#"><i class="fas fa-expand-alt icon"></i></a>
+                <a href="#"><i class="far fa-heart icon"></i></a>
+                <a href="#"><i class="fas fa-cart-plus icon"></i></a>
+              </div>
+            </div>
+            <div class="product">
+              <img src="./images/7.png" alt="Umbrella Stand" class="image" />
+              <a href="#" class="name">Umbrella stand</a>
+              <div class="stars">
+                <i class="fas fa-star icon"></i>
+                <i class="fas fa-star icon"></i>
+                <i class="fas fa-star icon"></i>
+                <i class="fas fa-star icon"></i>
+                <i class="fas fa-star icon"></i>
+              </div>
+              <span class="price">$79.90</span>
+              <div class="product-icons">
+                <a href="#"><i class="fas fa-expand-alt icon"></i></a>
+                <a href="#"><i class="far fa-heart icon"></i></a>
+                <a href="#"><i class="fas fa-cart-plus icon"></i></a>
+              </div>
+            </div>
+            <div class="product">
+              <img src="./images/8.png" alt="Soft chair" class="image" />
+              <a href="#" class="name">ottoman chair</a>
+              <span class="price">$79.90</span>
+              <div class="product-icons">
+                <a href="#"><i class="fas fa-expand-alt icon"></i></a>
+                <a href="#"><i class="far fa-heart icon"></i></a>
+                <a href="#"><i class="fas fa-cart-plus icon"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="all-products-btn">
+            <button class="btn">All Products</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banners">
+      <div class="container">
+        <div class="content">
+          <div class="banner left">
+            <span class="offer">Sale up to 50%</span>
+            <h1 class="item-name">arm chair</h1>
+          </div>
+          <div class="banner right">
+            <span class="offer">Speacia Deals</span>
+            <h1 class="item-name">dining table</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial">
+      <div class="container">
+        <div class="content">
+          <h2 class="heading">testimonial</h2>
+          <p class="review">
+            Top notch quality of product. Everything is simple but not boring at
+            all. I wisht I could buy all stuff in here. The customer services
+            are incredible with kindness & careful. I would recommend Minim for
+            all of you guys.
+          </p>
+          <div class="arrows">
+            <a href="#" class="arrow left">
+              <i class="fas fa-chevron-left icon"></i>
+            </a>
+            <a href="#" class="arrow right">
+              <i class="fas fa-chevron-right icon"></i>
+            </a>
+          </div>
+
+          <div class="userinfo">
+            <img src="images/avatar.png" alt="user avatar" class="avatar" />
+
+            <span class="username">Paul Wilson</span>
+
+            <span class="country">I San Jose</span>
+          </div>
+
+          <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="latest-news">
+      <div class="container">
+        <h1 class="heading">latest news</h1>
+        <div class="cards">
+          <div class="card">
+            <img
+              src="./images/blog-thumbnail.png"
+              alt="degisned room with table products"
+              class="product-image"
+            />
+            <div class="product-description">
+              <a href="#" class="category">Architect</a>
+              <a href="#" class="idea">
+                7 thoughts on simplifying your furniture
+              </a>
+              <p class="text">
+                Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at
+                egestas…
+              </p>
+              <a href="#" class="read-more">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./images/blog-thumbnail.png"
+              alt="degisned room with table products"
+              class="product-image"
+            />
+            <div class="product-description">
+              <a href="#" class="category">Architect</a>
+              <a href="#" class="idea">
+                7 thoughts on simplifying your furniture
+              </a>
+              <p class="text">
+                Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at
+                egestas…
+              </p>
+              <a href="#" class="read-more">Read More</a>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./images/blog-thumbnail.png"
+              alt="degisned room with table products"
+              class="product-image"
+            />
+            <div class="product-description">
+              <a href="#" class="category">Architect</a>
+              <a href="#" class="idea">
+                7 thoughts on simplifying your furniture
+              </a>
+              <p class="text">
+                Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at
+                egestas…
+              </p>
+              <a href="#" class="read-more">Read More</a>
+            </div>
+          </div>
         </div>
 
-        <h1>ROOF - <span>Modular </span> <span>Lighting</span> </h1>
-        <p class="p2">Designed by Gunwoon Kim</p>
-    </div>
-
-    <div class="main-container">
-
-        <h2>popular products</h2>
-
-        <div class="inside-boxes"> 
-
-            <div class="box1">
-                <img src="images/1.png" alt="">
-                <h5>Kime Chair</h5>
-                    <div class="rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>  
-                    </div>
-                <p>$67.90 – $124.90</p>
-
-                <div class="box-icons">
-
-                    <a href="#"><i class="fas fa-expand-alt"></i></a>
-                    <a href="#"><i class="far fa-heart"></i></a>
-                    <a href="#"><i class="fas fa-cart-plus"></i></a>
-    
-                </div>
-
-            </div>
-
-
-            <div class="box2">
-                <img src="images/2.png" alt="">
-                <h5>Kime Tea Caddy</h5>
-                <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    
-                </div>
-                <p>$29.90</p>
-
-                <div class="box-icons">
-
-                    <a href="#"><i class="fas fa-expand-alt"></i></a>
-                    <a href="#"><i class="far fa-heart"></i></a>
-                    <a href="#"><i class="fas fa-cart-plus"></i></a>
-    
-                </div>
-
-            </div>
-            
-            <div class="box3">
-                <img src="images/3.png" alt="">
-                <h5>Earphone Case</h5>
-
-                <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
-
-                <p id="green-price"> <span>$49.90</span> $29.90</p>
-
-                <div class="box-icons">
-
-                    <a href="#"><i class="fas fa-expand-alt"></i></a>
-                    <a href="#"><i class="far fa-heart"></i></a>
-                    <a href="#"><i class="fas fa-cart-plus"></i></a>
-    
-                </div>
-
-            </div>
-            <div class="box4">
-                <img src="images/4.png" alt="">
-                <h5>Horrison Table</h5>
-                <p id="green-price"> <span>$397.90</span> $350.90</p>
-                
-                <div class="box-icons">
-
-                    <a href="#"><i class="fas fa-expand-alt"></i></a>
-                    <a href="#"><i class="far fa-heart"></i></a>
-                    <a href="#"><i class="fas fa-cart-plus"></i></a>
-    
-                </div>
-            </div>
-
-            <div class="box5">
-                <img src="images/5.jpg" alt="">
-                <h5>Wallnut Wall Clock</h5>
-                <p>$33.90 – $35.90</p>
-                <div class="color-clock">
-                    <i class="fas fa-circle"></i>
-                    <i class="fas fa-circle"></i>
-                </div>
-                <div class="box-icons2">
-
-                    <a href="#"><i class="fas fa-expand-alt"></i></a>
-                    <a href="#"><i class="far fa-heart"></i></a>
-                    <a href="#"><i class="fas fa-cart-plus"></i></a>
-    
-                </div>
-
-            </div>
-
-            <div class="box6">
-                <img src="images/6.png" alt="">
-                <h5>Arper Round table</h5>
-                <p id="green-price"> <span>$249.90</span> $200.90</p>
-                <div class="box-icons2">
-
-                    <a href="#"><i class="fas fa-expand-alt"></i></a>
-                    <a href="#"><i class="far fa-heart"></i></a>
-                    <a href="#"><i class="fas fa-cart-plus"></i></a>
-    
-                </div>
-            </div>
-
-            <div class="box7">
-                <img src="images/7.png" alt="">
-                <h5>Umbrella stand</h5>
-                <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    
-                </div>
-                <p>$79.90</p>
-                <div class="box-icons2">
-
-                    <a href="#"><i class="fas fa-expand-alt"></i></a>
-                    <a href="#"><i class="far fa-heart"></i></a>
-                    <a href="#"><i class="fas fa-cart-plus"></i></a>
-    
-                </div>
-            </div>
-
-            <div class="box8">
-                <img src="images/8.png" alt="">
-                <h5>ottoman chair</h5>
-                <p>$79.90</p>
-
-                <div class="box-icons2">
-
-                    <a href="#"><i class="fas fa-expand-alt"></i></a>
-                    <a href="#"><i class="far fa-heart"></i></a>
-                    <a href="#"><i class="fas fa-cart-plus"></i></a>
-    
-                </div>
-            </div>
-
+        <div class="all-blog-post">
+          <button class="btn">All Blog Post</button>
         </div>
+      </div>
+    </section>
 
-        <div class="all-products">
-            <a href="#">All Products</a>
-        </div>
-
-
-
-        <div class="downbanner">
-            <div class="chair">
-                <a href="#">Sale up to 50%</a>
-                <h1>arm chair</h1>
-            </div>
-            <div class="table">
-                <a href="#">Speacial Deals</a>
-                <h1>dining table</h1>
-            </div>
-            
-        </div>
-
-        <div class="testimonial">
-            <h3>testimonial</h3>
-            <p>Top notch quality of product. Everything is simple but not <br> boring at all. I wisht I could buy all stuff in here. The 
-                <br> customer services are incredible with kindness &amp; careful. I <br>would recommend Minim for all of you guys.</p>
-            <img src="images/avatar.png" alt="avatarofpaul">
-            
-            <div class="review-details">
-                <span class="span1">Paul Wilson</span>
-                <span class="span2">San Jose</span>
-            </div>
-
-            <div class="testimonial-icons">
-                <div class="tleft">
-                    <a href="#"><i class="fas fa-chevron-left"></i></a>
-                </div>
-    
-                <div class="tright">
-                    <a href="#"><i class="fas fa-chevron-right"></i></a>
-                </div>
-            </div>
-            
-        </div>
-
-        <div class="second-container">
-            <h2>latest news</h2>
-
-            <div class="inside-boxes2">
-                    <div class="box11">
-                        <img src="images/blog-thumbnail.png" alt="">
-                        <a href="#">Architect</a>
-                        <h3>7 thoughts on simplifying <span>your furniture</span> </h3>
-                        <p>Donec accumsan auctor iaculis. Sed <span>arcu ligula, at egestas…</span> </p>
-                        <a href="#">Read more</a>
-                    </div>
-
-                    <div class="box22"> 
-                        <img src="images/blog-thumbnail-2.png" alt="">
-                        <a href="#">Trending</a> 
-                        <h3>2018 color trends for your <span>home interior</span></h3>
-                        <p>Donec accumsan auctor iaculis. Sed <span>arcu ligula, at egestas…</span> </p>
-                        <a href="#">Read more</a>
-                    </div>
-
-                    <div class="box33">
-                        <img src="images/blog-thumbnail-2.png" alt="">
-                        <a href="#">Architect</a>
-                        <h3>7 thoughts on simplifying <span>your furniture</span> </h3>
-                        <p>Donec accumsan auctor iaculis. Sed <span>arcu ligula, at egestas…</span> </p>
-                        <a href="#">Read more</a>
-                    </div>
-            </div>
-
-            <div class="all-blogpost">
-                <a href="#">All Blog Posts</a>
-            </div>
-
-            
-            
-        </div>
-
-    </div>
-
-    
-
-    <footer class="footer1">
-
-        <div class="footer-logo">
-            <a href="#"><img src="images/logo.png" alt="header-logo"></a>
-            <p>We are eager to help you to make <span>your house more beautiful, more</span>  livable with an affordable price & <span>good quality of furnitures.</span></p>
+    <footer class="footer">
+      <div class="container">
+        <div class="content">
+          <div class="footer-logo">
+            <a href="#" class="logo">
+              <img src="images/logo.png" alt="Miini-logo" class="footer-logo" />
+            </a>
+            <p class="text">
+              We are eager to help you to make your house more beautiful, more
+              livable with an affordable price & good quality of furnitures.
+            </p>
             <div class="social-links">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-pinterest"></i></a>
+              <a href="#"><i class="fab fa-facebook-f icon"></i></a>
+              <a href="#"><i class="fab fa-twitter icon"></i></a>
+              <a href="#"><i class="fab fa-pinterest icon"></i></a>
             </div>
-        </div>
+          </div>
 
-        <div class="shop">
-            <h2>Shop</h2>
-            <a href="#">Our Stories</a>
-            <a href="#">Cart</a>
-            <a href="#">My Account</a>
-            <a href="#">Wishlist</a>
-        </div>
+          <div class="shop">
+            <h4 class="heading">Shop</h4>
 
-        <div class="help">
-            <h2>Help</h2>
-            <a href="#">Contact</a>
-            <a href="#">FAQ</a>
-            <a href="#">Returns</a>
-            <a href="#">Shipping</a>
-            <a href="#">Guides</a>
-            
-        </div>
+            <nav class="nav">
+              <li>
+                <a href="#" class="category">Our Stories</a>
+              </li>
+              <li>
+                <a href="#" class="category">Cart</a>
+              </li>
+              <li>
+                <a href="#" class="category">My Account</a>
+              </li>
+              <li>
+                <a href="#" class="category">Wishlist</a>
+              </li>
+            </nav>
+          </div>
 
-        <div class="newsletter">
-            <h2>Newsletter</h2>
+          <div class="help">
+            <h4 class="heading">Help</h4>
+
+            <nav class="nav">
+              <li>
+                <a href="#" class="category">Contacts</a>
+              </li>
+              <li>
+                <a href="#" class="category">FAQ</a>
+              </li>
+              <li>
+                <a href="#" class="category">Returns</a>
+              </li>
+              <li>
+                <a href="#" class="category">Shipping</a>
+              </li>
+              <li>
+                <a href="#" class="category">Guides</a>
+              </li>
+            </nav>
+          </div>
+
+          <div class="newsletter">
+            <h2 class="heading">Newsletter</h2>
             <div class="subscribe">
-                <input type="email"
-                placeholder="Your@email.com">
-                <button>Subscribe</button>
+              <input type="email" placeholder="Your@email.com" class="input" />
+              <button class="button">Subscribe</button>
             </div>
-           
-            <p> I want emails from Minim with <span>products information, promotions,</span>advertisements here. Read our Privacy <span>Policy.</span> </span>  </p>
+
+            <p class="text">
+              I want emails from Minim with products information, promotions
+              advertisements here. Read our Privacy Policy
+            </p>
+          </div>
         </div>
 
-        
+        <hr class="divider" />
 
+        <div class="copyright">
+          <span class="license">
+            &copy;2022
+            <span class="green">Minim</span>
+            All Rights Reserved.
+          </span>
 
-
-    </footer>
-
-    <footer class="footer2">
-        <p>©2020  <span>Minim</span>  . All Rights Reserved.</p>
-        <div class="footer2-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of services</a>
-            <a href="#">Affiliation</a>
-            <a href="#">Sponsors</a>
+          <nav class="navigation">
+            <li><a href="#" class="link">Privacy Policy</a></li>
+            <li><a href="#" class="link">Terms of Service</a></li>
+            <li><a href="#" class="link">Affiliation</a></li>
+            <li><a href="#" class="link">Sponsors</a></li>
+          </nav>
         </div>
-        
+      </div>
     </footer>
-
-    
-
-    
-</body>
+  </body>
 </html>
